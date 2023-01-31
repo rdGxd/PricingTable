@@ -1,0 +1,14 @@
+@charset "UTF-8";
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: #ffcc29;
+  --blue: #1d539e;
+  --gray: #828799;
+  --page-background: #f9fbfc;
+  /* font-family: 'Open Sans', sans-serif; */
+}
