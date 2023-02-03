@@ -54,13 +54,16 @@ section {
   display: flex;
   top: 15.62rem;
   left: 8rem;
-  background-color: #ffffff;
   position: absolute;
-  border: 0.06rem solid #ffffff;
-  border-radius: 0.5rem;
-  box-shadow: 0rem 0.06rem 0.125rem rgba(142, 150, 185, 0.25);
   height: 31.25rem;
   width: 22.18rem;
+}
+
+article {
+  background-color: #ffffff;
+  margin-right: 20px;
+  box-shadow: 0rem 0.06rem 0.125rem rgba(142, 150, 185, 0.25);
+  border-radius: 0.5rem;
 }
 
 .price {
@@ -154,17 +157,11 @@ li {
   margin-left: 1.87rem;
 }
 
-#Profissional {
-  margin-left: 46.87rem;
-}
-
 #Profissional button {
   margin-top: 2.62rem;
 }
 
 #Basico {
-  display: flex;
-  margin-left: 23.5rem;
   height: 32.25rem;
 }
 
@@ -190,7 +187,7 @@ li {
   color: #ffffff;
 }
 
-.algo {
+.Promo {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -201,7 +198,7 @@ li {
   border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
-.algo h2 {
+#Basico h2 {
   color: var(--blue);
   font-weight: 600;
   font-size: 1.25rem;
